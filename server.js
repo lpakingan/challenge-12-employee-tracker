@@ -27,4 +27,4 @@ const db = mysql.createConnection(
 );
 
 // run the command line interface for user input
-new CLI().run();
+ new CLI().run();
