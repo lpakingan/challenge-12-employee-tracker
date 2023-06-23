@@ -1,11 +1,9 @@
 // import the required packages
-const express = require('express');
 const mysql = require ('mysql2');
 const CLI = require('./lib/cli');
 
-// create the port to run the application and run express
+// create the port to run the application
 const PORT = process.env.PORT || 3001;
-const app = express();
 
 // express the middleware
 app.use(express.urlencoded({ extended: false }));
