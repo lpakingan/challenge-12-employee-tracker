@@ -1,6 +1,7 @@
 // import the required packages
 const express = require('express');
 const mysql = require ('mysql12');
+const CLI = require('./lib/cli');
 
 // create the port to run the application and run express
 const PORT = process.env.PORT || 3001;
@@ -24,3 +25,6 @@ const db = mysql.createConnection(
   },
   console.log(`Connected to the employee_db database.`)
 );
+
+// run the command line interface for user input
+new CLI().run();
