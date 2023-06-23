@@ -1,6 +1,6 @@
 // import the required packages
 const express = require('express');
-const mysql = require ('mysql12');
+const mysql = require ('mysql2');
 const CLI = require('./lib/cli');
 
 // create the port to run the application and run express
