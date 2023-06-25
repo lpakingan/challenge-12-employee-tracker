@@ -27,6 +27,6 @@ const db = mysql.createConnection(
     } else {
     // if connection was successful, run the command line interface for user input
     console.log(`Now connected to the employee database through PORT ${PORT}!`);
-    new CLI().run();
+    new CLI().run(db);
     }
   });
