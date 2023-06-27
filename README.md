@@ -43,6 +43,4 @@ Once connected to the database, you will be able to scroll through a menu of opt
 
 
 ## Deployed Application
-Here is a video demoing how to use the application when opened in the command-line terminal:
-
-![]()
+A video demoing how to use the application when opened in the command-line terminal can be watched at [this link](https://youtu.be/T6g1Ehs_MXE).
