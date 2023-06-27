@@ -29,7 +29,9 @@ THEN I am prompted to select an employee to update and their new role and this i
 For this application, installation of Node.js, Inquirer, and MySQL are required. Inquirer and MySQL2 are packages that can be installed using npm in the terminal while in the directory of the application's files. For Inquirer, use ```npm i inquirer@8.2.4``` to install the correct version.
 
 ## Usage
-To use the application, ensure that all packages/dependencies are installed. 
+To use the application, ensure that all packages/dependencies are installed by running ```npm install``` once in the directory of the application. Navigate to the db folder and login locally to MySQL to run schema.sql and seeds.sql by typing in ```source schema.sql``` and ```source seeds.sql```. After the database has been created and populated with the example data, run ```node server.js``` to open the server to access the employee database program. If the server does not open due to a login error, open server.js and change the MySQL username and password login credentials to your own. 
+
+Once connected to the database, you will be able to scroll through a menu of options for what you would like to do. You are able to view, add/delete, or edit departments, roles, or employees that are stored within the database. See below for a demo on the functionality of the application.
 
 ## Resources Used
 - W3Schools
